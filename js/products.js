@@ -1,9 +1,9 @@
+//defino el array con los productos que se mostrarán en pantalla
 const productos = [
     {
         id: 1,
         nombre: "banana",
         precio: 600,
-        /*img: "https://greenshop.ar/wp-content/uploads/sites/9/2016/08/A.2.6-500GR-600x600.jpg",*/
         img: "./images/banana.png",
         cantidad: 1,
     },

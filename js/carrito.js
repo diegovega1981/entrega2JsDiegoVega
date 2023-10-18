@@ -1,3 +1,4 @@
+//función
 const pintarCarrito = () => {
   modalContainer.innerHTML = "";
   modalContainer.style.display = "flex";
@@ -7,7 +8,8 @@ const pintarCarrito = () => {
     <h1 class="modal-header-title">Carrito.</h1>
     `;
   modalContainer.append(modalHeader);
-
+  
+  //función
   const modalbutton = document.createElement("h1");
   modalbutton.innerText = "x";
   modalbutton.className = "modal-header-button";
@@ -18,6 +20,7 @@ const pintarCarrito = () => {
 
   modalHeader.append(modalbutton);
 
+  //creo un elemento div en el html
   carrito.forEach((product) => {
     let carritoContent = document.createElement("div");
     carritoContent.className = "modal-content";

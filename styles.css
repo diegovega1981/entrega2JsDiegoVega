@@ -31,7 +31,7 @@ body {
   cursor: pointer;
 }
 
-/*banner styles*/
+/*estilos para el banner*/
 .banner {
   background-size: cover;
   background-position: center;
@@ -60,7 +60,7 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-/*product cards*/
+/*estilos para los productos*/
 .shop-content {
     display: flex;
     justify-content: space-around;
@@ -100,7 +100,7 @@ body {
     opacity: 0.7;
 }
 
-/*modal content*/
+/*contenidos del modal*/
 .modal-container {
     width: 80%;
     margin: 0 10%;
@@ -159,12 +159,12 @@ body {
     padding-top: 20px;
 }
 
-/*delete button product*/
+/*estilo del botón de eliminar producto*/
 .delete-product {
     cursor: pointer;
 }
 
-/*carrito counter*/
+/*estilo para el contador del carrito*/
 .cantidad-carrito {
     background-color: red;
     color: white;

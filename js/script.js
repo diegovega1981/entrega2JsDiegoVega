@@ -1,8 +1,10 @@
+//eestas funciones permiten captar los id del html
 const shopContent = document.getElementById("ShopContent");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
 
+//creo un array vacío
 let carrito = [];
 productos.forEach((product) => {
   let content = document.createElement("div");
